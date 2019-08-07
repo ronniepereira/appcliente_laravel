@@ -25,3 +25,18 @@ $factory->define(User::class, function (Faker $faker) {
         'remember_token' => Str::random(10),
     ];
 });
+
+$factory->define(App\Cliente::class, function (Faker $faker) {
+    return [
+        'nome' => $faker->name,
+        'email' => $faker->unique()->safeEmail,
+        'endereco' => $faker->streetAddress
+    ];
+});
+
+$factory->define(App\Telefone::class, function (Faker $faker) {
+    return [
+        'titulo' => $faker->name,
+        'telefone' => $faker->phoneNumber
+    ];
+});
