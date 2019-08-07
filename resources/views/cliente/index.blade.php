@@ -13,8 +13,11 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    Voce está logado!
+                    
+                    Voce está na lista de Clientes...
+                    @foreach($clientes as $cliente)
+                    <li>{{$cliente->nome}}</li>
+                    @endforeach
                 </div>
             </div>
         </div>
