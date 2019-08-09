@@ -7,7 +7,7 @@
             <div class="card">
                 <ol class="breadcrumb card-header">
                     <li class="breadcrumb-item"><a href="{{route('cliente.index')}}">Cliente</a></li>
-                    <li class="breadcrumb-item active">Detalhe cliente</li>
+                    <li class="breadcrumb-item active">Detalhes</li>
                 </ol>
                 <div class="card-body">
                     <p><b>Cliente: </b>{{$cliente->nome}}</p>
@@ -30,14 +30,16 @@
                                 <td>{{$telefone->titulo}}</td>
                                 <td>{{$telefone->telefone}}</td>
                                 <td>
-                                <a class="btn btn-default" href="#">Editar</a>
-                                <a class="btn btn-danger" href="javascript:(confirm('Deletar esse registro?') ? window.location.href='#'">Deletar</a>
+                                <a class="btn btn-default" href="{{route('telefone.editar', $telefone->id)}}">Editar</a>
+                                <a class="btn btn-danger" href="javascript:(confirm('Deletar esse registro?') ? window.location.href='{{route('telefone.deletar', $telefone->id)}}' : false)">Deletar</a>
                                 </td>
                             </tr>
                             @endforeach
-                            
                         </tbody>
                     </table>
+                    <p>
+                        <a class="btn btn-info" href="{{route('telefone.adicionar', $cliente->id)}}">Adicionar Telefone</a>
+                    </p>
                 </div>
             </div>
         </div>
