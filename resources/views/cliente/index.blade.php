@@ -47,7 +47,7 @@
                             
                         </tbody>
                     </table>
-                    <div style="margin: 0 auto;">
+                    <div class="pagination-center" style="margin: 0 auto;">
                         {!! $clientes->links() !!}
                     </div>
                 </div>

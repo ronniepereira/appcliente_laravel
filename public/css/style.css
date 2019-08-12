@@ -1,3 +1,9 @@
-.alert-center{
-    margin: 0 auto
+.alert-center {
+  margin: 0 auto;
+}
+
+.pagination-center ul {
+  padding-left: auto;
+  align-items: center;
+  justify-content: center;
 }

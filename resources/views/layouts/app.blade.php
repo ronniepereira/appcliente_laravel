@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'appCliente') }}</title>
+    <title>{{ config('app.name', 'AppCliente') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -22,7 +22,7 @@
 </head>
 <body>
     <div id="app">
-        @include('layouts._includes._navbar');
+        @include('layouts._includes._navbar')
 
         @if(Session::has('flash_message'))
             <div class="container">

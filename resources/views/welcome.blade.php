@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>appCliente</title>
+        <title>AppCliente</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -61,9 +61,16 @@
             }
             .icons
             {
-                align-items: center;
+                bottom: 5px;
+                align-items: baseline;
                 display: flex;
-                justify-content: center;
+                justify-content: end;
+                position: absolute;
+            }
+
+            .icons a
+            {
+                margin:0 5px;
             }
         </style>
     </head>
@@ -87,11 +94,13 @@
                         @endauth
                     </div>
                 @endif
-                <div class="align-bottom icons">
-                    <a href="https://linkedin.com"><span style="font-size:48px; color: #FFFF"><i class="fab fa-linkedin"></span></i></a>
-                    <a href="https://github.com"><span style="font-size:48px; color: #FFFF"><i class="fab fa-github"></i></span></a>
-                </div>
+              
             </div>
+            <div class="align-bottom icons">
+            <a href="https://www.linkedin.com/in/ronnievinnicius/"><span style="font-size:48px; color: #FFFF"><i class="fab fa-linkedin"></span></i></a>
+            <a href="https://github.com/ronniepereira"><span style="font-size:48px; color: #FFFF"><i class="fab fa-github"></i></span></a>
         </div>
+        </div>
+          
     </body>
 </html>
