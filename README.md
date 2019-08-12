@@ -10,9 +10,9 @@ A fim de utilizar MVC na pratica com Laravel, de modo simples e introdutório.
 * Composer 
 
 ## Dicas para instalar 
-Instalar MariaDB no Ubuntu: *https://linuxize.com/post/how-to-install-mariadb-on-ubuntu-18-04/* 
-Instalar Composer: *https://www.digitalocean.com/community/tutorials/como-instalar-e-usar-o-composer-no-ubuntu-18-04-pt* 
-Instalar Laravel: *https://laravel.com/docs/5.8/installation* 
+Instalar MariaDB no Ubuntu: *https://linuxize.com/post/how-to-install-mariadb-on-ubuntu-18-04/*  
+Instalar Composer: *https://www.digitalocean.com/community/tutorials/como-instalar-e-usar-o-composer-no-ubuntu-18-04-pt*  
+Instalar Laravel: *https://laravel.com/docs/5.8/installation*  
 
 ## Como rodar projeto 
 * Com o MariaDB ou MySQL instalado, crie um novo schema (base de dados) para o projeto (utilizei MySQL Workbench para facilitar a criação) 
