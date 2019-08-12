@@ -19,9 +19,9 @@ Instalar Laravel: *https://laravel.com/docs/5.8/installation*
 * Em seguida, clone o repositório para sua maquina 
 * Copie o arquivo .env.example com o nome de .env 
 * Edite as variáveis de Banco de Dados do arquivo .env (IP, porta, login, senha) 
-* Na pasta do projeto, rode os seguintes comandos 
-*composer install* 
-*php artisan migrate --seed* 
-* Suba o projeto com o comando 
+* Na pasta do projeto, rode os seguintes comandos  
+*composer install*  
+*php artisan migrate --seed*  
+* Suba o projeto com o comando  
 *php artisan serve* 
 * Acesse o projeto via web, geralmente em http://localhost:8000
