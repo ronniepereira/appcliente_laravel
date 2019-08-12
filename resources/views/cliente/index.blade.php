@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-10">
+        <div class="col-md-12">
             <div class="card">
                 <ol class="breadcrumb card-header">
                     <li class="breadcrumb-item active" aria-current="page">Cliente</li>
@@ -16,7 +16,7 @@
                     @endif
                                         
                     <p>
-                        <a class="btn btn-info" href="{{route('cliente.adicionar')}}">Adicionar</a>
+                        <a class="btn btn-info btn-white" href="{{route('cliente.adicionar')}}">Adicionar</a>
                     </p>
                     
 

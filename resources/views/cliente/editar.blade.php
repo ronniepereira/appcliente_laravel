@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-10">
+        <div class="col-md-12">
             <div class="card">
                 <ol class="breadcrumb card-header">
                     <li class="breadcrumb-item"><a href="{{route('cliente.index')}}">Cliente</a></li>
@@ -40,7 +40,7 @@
                                 </span>
                             @endif
                         </div>
-                        <button class="btn btn-info">Salvar</button>
+                        <button class="btn btn-info btn-white">Salvar</button>
                     </form>
                 </div>
             </div>

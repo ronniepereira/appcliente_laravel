@@ -72,6 +72,11 @@
             {
                 margin:0 5px;
             }
+
+            .btn-adicionar
+            {
+                color: #FFF;
+            }
         </style>
     </head>
     <body>
@@ -94,12 +99,11 @@
                         @endauth
                     </div>
                 @endif
-              
             </div>
             <div class="align-bottom icons">
-            <a href="https://www.linkedin.com/in/ronnievinnicius/"><span style="font-size:48px; color: #FFFF"><i class="fab fa-linkedin"></span></i></a>
-            <a href="https://github.com/ronniepereira"><span style="font-size:48px; color: #FFFF"><i class="fab fa-github"></i></span></a>
-        </div>
+                <a href="https://www.linkedin.com/in/ronnievinnicius/"><span style="font-size:48px; color: #FFFF"><i class="fab fa-linkedin"></span></i></a>
+                <a href="https://github.com/ronniepereira"><span style="font-size:48px; color: #FFFF"><i class="fab fa-github"></i></span></a>
+            </div>
         </div>
           
     </body>

@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-10">
+        <div class="col-md-12">
             <div class="card">
                 <ol class="breadcrumb card-header">
                     <li class="breadcrumb-item"><a href="{{route('cliente.index')}}">Cliente</a></li>
@@ -38,7 +38,7 @@
                         </tbody>
                     </table>
                     <p>
-                        <a class="btn btn-info" href="{{route('telefone.adicionar', $cliente->id)}}">Adicionar Telefone</a>
+                        <a class="btn btn-info btn-white" href="{{route('telefone.adicionar', $cliente->id)}}">Adicionar Telefone</a>
                     </p>
                 </div>
             </div>
